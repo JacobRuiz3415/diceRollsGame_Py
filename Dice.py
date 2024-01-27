@@ -4,8 +4,8 @@ import random
 score = 0
 round = 0
 
-while round < 20:
-    num = random.randint(0,2)
+while round < 100:
+    num = random.randint(0,6)
 
     print(num)
     score += num

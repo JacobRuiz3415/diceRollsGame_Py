@@ -1,15 +1,9 @@
-#dice rolling game
+#dice class modules
 import random
 
-score = 0
-round = 0
+class Dice:
+    def __init__(self):
+        number = 0
 
-while round < 100:
-    num = random.randint(0,6)
-
-    print(num)
-    score += num
-    round += 1
-#loop end
-
-print(f"final score:{score}")
+    def roll():
+       return random.randint(1,6)

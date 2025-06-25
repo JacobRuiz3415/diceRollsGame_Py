@@ -1,1 +1,1 @@
-it siample program game that i made with random number genterator
+It is a simple program game that I made with a random number generator

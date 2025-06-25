@@ -5,6 +5,7 @@ score = 0
 round = 1
 point = 0
 
+#the game given 100 rounds
 while round <= 100:
 
     point = Dice.roll()
